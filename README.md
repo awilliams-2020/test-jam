@@ -2,7 +2,10 @@
 
 A simple MVP Forge app that creates a test jam excel spreadsheet.
 
-<video src="https://youtu.be/I0bxI54VdOo"></video>
+|Generate|Test Jam|
+------|----------
+|![Generate](https://github.com/awilliams-2020/test-jam/tree/main/src/frontend/images/generate.png)|![Generate](https://github.com/awilliams-2020/test-jam/tree/main/src/frontend/images/testjam.png)|
+
 
 ## Requirements
 
