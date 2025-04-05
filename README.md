@@ -2,7 +2,7 @@
 
 A simple MVP Forge app that creates a test jam excel spreadsheet.
 
-<video src="https://youtu.be/I0bxI54VdOo">
+<video src="https://youtu.be/I0bxI54VdOo"></video>
 
 ## Requirements
 
