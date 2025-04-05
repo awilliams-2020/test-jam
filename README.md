@@ -1,12 +1,19 @@
-# Forge Hello World
+# Forge Test Jam
 
-This project contains a Forge app written in Javascript that displays `Hello World!` in a Jira issue panel. 
+A simple MVP Forge app that creates a test jam excel spreadsheet.
 
-See [developer.atlassian.com/platform/forge/](https://developer.atlassian.com/platform/forge) for documentation and tutorials explaining Forge.
+<video src="https://youtu.be/I0bxI54VdOo">
 
 ## Requirements
 
-See [Set up Forge](https://developer.atlassian.com/platform/forge/set-up-forge/) for instructions to get set up.
+- A parent ticket (Epic, Story)
+- A ticket (Task) with a linked parent ticket.
+- A ticket container bullet list of user scenarios.
+
+## How to use
+
+- Forge app is installed on parent ticket
+- Clicking "Generate" creates the spreadsheet
 
 ## Quick start
 
