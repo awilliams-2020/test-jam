@@ -1,22 +1,29 @@
 # Forge Test Jam
 
-A simple MVP Forge app that creates a test jam excel spreadsheet.
+A Forge app that automatically generates test jam spreadsheets from Jira tickets. This tool helps streamline the test planning process by converting user scenarios from Jira tickets into a structured Excel spreadsheet format.
 
-|Generate|Test Jam|
-------|----------
-|![Generate](https://github.com/awilliams-2020/test-jam/blob/main/src/images/generate.png)|![Test Jam](https://github.com/awilliams-2020/test-jam/blob/main/src/images/testjam.png)|
+## Features
 
+- Automatically generates Excel spreadsheets from Jira tickets
+- Extracts user scenarios from ticket descriptions
+- Organizes test cases in a clear, structured format
+- Supports hierarchical ticket relationships (Epic/Story -> Tasks)
 
 ## Requirements
 
 - A parent ticket (Epic, Story)
-- A ticket (Task) with a linked parent ticket.
-- A ticket container bullet list of user scenarios.
+- A ticket (Task) with a linked parent ticket
+- A ticket containing bullet list of user scenarios in the description
 
 ## How to use
 
-- Forge app is installed on parent ticket
-- Clicking "Generate" creates the spreadsheet
+1. Install the Forge app on your Jira instance
+2. Navigate to a parent ticket (Epic or Story)
+3. Click the "Generate" button in the issue panel
+4. The app will automatically create and download an Excel spreadsheet containing:
+   - Task information (key and summary)
+   - User scenarios from the ticket descriptions
+   - Status tracking columns
 
 ## Quick start
 
